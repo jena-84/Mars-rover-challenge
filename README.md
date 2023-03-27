@@ -19,10 +19,10 @@ The output should take the form: (1, 2, N)
 
 Where each line represents the final position and orientation of the robots of the form (x, y, orientation) and optionally whether the robot was lost.
 NB. This output is an example and does not correspond to the example input shown above.
-
-#### Example, for the input: 48
-#### (2, 3, N) FLLFR
-#### (1, 0, S) FFRLF
+#### Example, for the input: 
+### Enter grid size 4 8
+#### Enter (2, 3, N) FLLFR
+#### or Enter (1, 0, S) FFRLF
 #### The output would be: 
 #### (2, 3, W)
 #### (1, 0, S) LOST
