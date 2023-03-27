@@ -26,7 +26,7 @@ function move(current_direction, x, y) {
 }
 // regex used to extract data
 const regex = /\((\d),(\d),(\w)\)([FLR]+)/;
-// used prompt to enter direction by user
+// used prompt to enter size, direction and commands  by user
 const dim = prompt("Enter dimensions: ").split(" ");
 //convert string to number to get width & height
 const w = parseInt(dim[0]);
